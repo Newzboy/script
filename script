@@ -1,3 +1,0 @@
-alert("You have virus");
-sleep(2000);
-alert("There is no escape.")
